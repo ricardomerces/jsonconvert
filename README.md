@@ -15,7 +15,16 @@ Convert CSV file to JSON file
   
 CSV file name = **file.csv** (in the same directory)
   
-## Usage example  
+## Usage
+
+**BASIC USAGE**
+
+jsonconvert.convert(key1, key2, key3, keyN, output=True)
+
+keys = fieldnames
+
+if output is true (the default) the output is shown
+   
   
 **CODE EXAMPLE**  
   

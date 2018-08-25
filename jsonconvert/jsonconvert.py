@@ -1,7 +1,7 @@
 import json
 import csv
 
-def convert(*args):
+def convert(*args, output=True):
     keys = ()
     data = []
     for item in args:
@@ -15,4 +15,5 @@ def convert(*args):
     with open('file.json', 'w') as jsonfile:
         jsonfile.write(json.dumps(data))
 
-    print(json.dumps(data, indent=4))
+    if output:
+        print(json.dumps(data, indent=4))
