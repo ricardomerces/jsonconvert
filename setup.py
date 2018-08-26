@@ -5,7 +5,7 @@ setup(
     version='1.0',
     packages=['jsonconvert'],
     url='https://github.com/ricardomerces/jsonconvert.git',
-    license='',
+    license='MIT License',
     author='Ricardo Merces',
     author_email='',
     description='Convert CSV file to JSON file'
