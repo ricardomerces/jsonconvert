@@ -7,6 +7,6 @@ setup(
     url='https://github.com/ricardomerces/jsonconvert.git',
     license='MIT License',
     author='Ricardo Merces',
-    author_email='',
+    author_email=' ',
     description='Convert CSV file to JSON file'
 )
